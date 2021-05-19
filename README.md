@@ -24,6 +24,6 @@ __Optimistic flow__:
 1. Check the contents of a thread
 
 __Pragmatic flow__:\
-  __Conditions trigerring alternate flow__:\
-    __Condition 1__: There is no threads of interest on the board.\
-      2. Provide ability to navigate to another board
+&ensp;__Conditions trigerring alternate flow__:\
+&emsp;__Condition 1__: There is no threads of interest on the board.\
+&emsp;&ensp;2-1. Provide ability to navigate to another board
