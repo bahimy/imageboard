@@ -1,9 +1,10 @@
 # imageboard
 Practice project
 ## System's context
-l. actors:
+
+1. actors:
   * anonymous
-l. use cases
+1. use cases
   * check threads of the board of interest
   * check thread of interset
   * start new thread
