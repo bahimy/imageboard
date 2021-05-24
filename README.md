@@ -24,12 +24,13 @@ __Optimistic flow__:
 1. Determine the thread of interest
 1. Check the contents of a thread
 
-__Pragmatic flow__:\
+__Pragmatic flow__:
 
 &ensp;__Conditions trigerring alternate flow__:\
 &emsp;__Condition 1__: There is no threads of interest on the board.\
 &emsp;&ensp;2-1. Provide ability to navigate to another board
 
+* * *
 
 __Use case name__: Post to the thread of interest\
 __Use case purpose__: The usecase provides ability for an Actor to make a post to the main thread
@@ -39,7 +40,7 @@ __Optimistic flow__:
 1. Check the contents of a thread
 1. Post a message to the main thread
 
-__Pragmatic flow__:\
+__Pragmatic flow__:
 
 &ensp;__Conditions trigerring alternate flow__:\
 &emsp;__Condition 1__: The idea for the post is lost\
