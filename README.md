@@ -20,6 +20,7 @@ __Use case purpose__: Boards and threads constitute the imageboard. The usecase 
 
 Optimistic flow:
 
+1. Check the main
 1. Check the board
 1. Check the contents of a thread
 
@@ -27,10 +28,10 @@ Pragmatic flow:
 
 &ensp;Conditions trigerring alternate flow:\
 &emsp;Condition 1: There is no threads of interest on the board.\
-&emsp;&ensp;1-1. Provide ability to navigate to another board
+&emsp;&ensp;2-1. Provide ability to navigate to another board
 
 __Use case name__: Post to the thread of interest\
-__Use case purpose__: The usecase provides ability for an Actor to make a post to the main thread
+__Use case purpose__: The usecase provides ability for an Actor to make a post
 
 Optimistic flow:
 
@@ -40,7 +41,7 @@ Optimistic flow:
 Pragmatic flow:
 
 &ensp;Conditions trigerring alternate flow:\
-&emsp;Condition 1: There is no posts of interest\
+&emsp;Condition 1: There is no post of interest\
 &emsp;&ensp;2-1. Provide ability to post to the root of a thread
 
 __Use case name__: Start a new thread\
@@ -48,11 +49,9 @@ __Use case purpose__: The usecase provides ability for an Actor to create a new 
 
 Optimistic flow:
 
-1. Check the posts in a thread of interest
-1. Post an answer to the post of interest
+1. Check the main
+1. Make a new thread
 
-Pragmatic flow:
+### Activity
 
-&ensp;Conditions trigerring alternate flow:\
-&emsp;Condition 1: There is no posts of interest\
-&emsp;&ensp;2-1. Provide ability to post to the root of a thread
+![activity diagram](./actions.png "Activity diagram")
