@@ -59,4 +59,6 @@ Optimistic flow:
 ### Class diagrams
 
 ![class list](./classes.png "Basic classes")
-![class relationships](./classes_rl.png "Basic class relationsips")
+
+#### Class relationships
+![class relationships](./classes_rl.png "Basic class relationships")
