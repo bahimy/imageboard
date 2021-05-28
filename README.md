@@ -54,11 +54,12 @@ Optimistic flow:
 
 ### Activity
 
-![activity diagram](./actions.png "Activity diagram")
+![activity diagram](./files/actions.png "Activity diagram")
 
 ### Class diagrams
 
-![class list](./classes.png "Basic classes")
+![class list](./files/classes.png "Basic classes")
 
 #### Class relationships
-![class relationships](./classes_rl.png "Basic class relationships")
+
+![class relationships](./files/classes_rl.png "Basic class relationships")
